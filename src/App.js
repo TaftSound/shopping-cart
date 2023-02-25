@@ -15,13 +15,15 @@ import NavBar from './components/navbar';
 
 function App() {
   return (
-    <BrowserRouter>
-      <NavBar />
-      <Routes>
-        <Route path='/' element={<Homepage />} />
-        <Route path='/shop' element={<Shop />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<Homepage />} />
+          <Route path='/shop' element={<Shop />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   )
 }
 
