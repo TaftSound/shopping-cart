@@ -39,6 +39,7 @@
   width: 100vw;
   height: 35px;
   padding: 25px;
+  border-bottom: solid 2px darkgray;
 }
 .navbar nav {
   display: flex;
@@ -52,6 +53,24 @@
 }
 .navbar a.active {
   color: black;
+}
+
+.cart {
+  position: relative;
+  z-index: 1;
+  height: 25px;
+  box-sizing: border-box;
+  padding: 15px 15px;
+  border-bottom: solid 2px rgb(215, 215, 215);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.cart h3 {
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
