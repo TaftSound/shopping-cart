@@ -13,6 +13,7 @@ function Shop () {
   return (
     <div>
       <ShoppingCart />
+      
     </div>
   )
 }
