@@ -4,19 +4,19 @@ import React from "react";
 const ItemCard = (props) => {
 
   const addToCart = () => {
-    props.addToCart(props.itemName)
+    props.addToCart(props.name)
   }
   const increaseCount = () => {
-    props.increaseItemCount(props.itemName)
+    props.increaseCount(props.name)
   }
   const decreaseCount = () => {
-    props.decreaseItemCount(props.itemName)
+    props.decreaseCount(props.name)
   }
   
   return (
-    <div className="item-card">
-      <img src={props.imgUrl} alt={props.imgAlt} />
-      <h2>{props.itemName}</h2>
+    <div className="item-card" data-testid="item-card">
+      <img src={props.imgUrl} alt={props.name} />
+      <h2>{props.name}</h2>
       <h2>{props.cost}$</h2>
       {props.numberInCart
       ? <div>

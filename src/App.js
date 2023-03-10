@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React, { useContext } from 'react';
-import Shop from './components/shop-page';
+import ShopPage from './components/shop-page';
 import Homepage from './components/homepage';
 import NavBar from './components/navbar';
 
@@ -20,7 +20,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={<Homepage />} />
-          <Route path='/shop' element={<Shop />} />
+          <Route path='/shop' element={<ShopPage />} />
         </Routes>
       </BrowserRouter>
     </div>

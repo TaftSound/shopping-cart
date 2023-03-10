@@ -14,7 +14,7 @@ import ItemCard from "../components/item-card";
     })
 
     it("renders item name from props", () => {
-      render(<ItemCard itemName="Some Item"/>)
+      render(<ItemCard name="Some Item"/>)
       const nameElement = screen.getAllByRole("heading")
 
       expect(nameElement[0].textContent).toBe("Some Item")
@@ -36,7 +36,7 @@ import ItemCard from "../components/item-card";
 
     it("more button calls function passed from props", () => {
       const mockFunction = jest.fn()
-      render(<ItemCard numberInCart={2} increaseItemCount={mockFunction} />)
+      render(<ItemCard numberInCart={2} increaseCount={mockFunction} />)
       const moreButton = screen.getByTestId("increase-count")
 
       userEvent.click(moreButton)
@@ -47,7 +47,7 @@ import ItemCard from "../components/item-card";
 
     it("less button calls function passed from props", () => {
       const mockFunction = jest.fn()
-      render(<ItemCard numberInCart={2} decreaseItemCount={mockFunction} />)
+      render(<ItemCard numberInCart={2} decreaseCount={mockFunction} />)
       const lessButton = screen.getByTestId("decrease-count")
 
       userEvent.click(lessButton)
