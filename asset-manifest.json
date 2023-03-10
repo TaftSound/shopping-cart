@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/TaftSound/shopping-cart/static/css/main.d24de5ee.css",
-    "main.js": "/TaftSound/shopping-cart/static/js/main.cdcbca1f.js",
-    "static/media/homepage.jpeg": "/TaftSound/shopping-cart/static/media/homepage.cbaae5bbae0fd854e41c.jpeg",
-    "static/media/adobe-t-shirt.jpeg": "/TaftSound/shopping-cart/static/media/adobe-t-shirt.b72c7739a2a69134135d.jpeg",
-    "static/media/grey-shorts.jpeg": "/TaftSound/shopping-cart/static/media/grey-shorts.20b28ce05a2b58aa6845.jpeg",
-    "static/media/black-t-shirt.jpeg": "/TaftSound/shopping-cart/static/media/black-t-shirt.c61f350e69229800af9e.jpeg",
-    "static/media/grey-beanie.jpeg": "/TaftSound/shopping-cart/static/media/grey-beanie.9266a67c0c786b9ab860.jpeg",
-    "static/media/beige-beanie.jpeg": "/TaftSound/shopping-cart/static/media/beige-beanie.ec139b67f031f2a70442.jpeg",
-    "index.html": "/TaftSound/shopping-cart/index.html",
-    "main.d24de5ee.css.map": "/TaftSound/shopping-cart/static/css/main.d24de5ee.css.map",
-    "main.cdcbca1f.js.map": "/TaftSound/shopping-cart/static/js/main.cdcbca1f.js.map"
+    "main.css": "/shopping-cart/static/css/main.d24de5ee.css",
+    "main.js": "/shopping-cart/static/js/main.bf8fa4d3.js",
+    "static/media/homepage.jpeg": "/shopping-cart/static/media/homepage.cbaae5bbae0fd854e41c.jpeg",
+    "static/media/adobe-t-shirt.jpeg": "/shopping-cart/static/media/adobe-t-shirt.b72c7739a2a69134135d.jpeg",
+    "static/media/grey-shorts.jpeg": "/shopping-cart/static/media/grey-shorts.20b28ce05a2b58aa6845.jpeg",
+    "static/media/black-t-shirt.jpeg": "/shopping-cart/static/media/black-t-shirt.c61f350e69229800af9e.jpeg",
+    "static/media/grey-beanie.jpeg": "/shopping-cart/static/media/grey-beanie.9266a67c0c786b9ab860.jpeg",
+    "static/media/beige-beanie.jpeg": "/shopping-cart/static/media/beige-beanie.ec139b67f031f2a70442.jpeg",
+    "index.html": "/shopping-cart/index.html",
+    "main.d24de5ee.css.map": "/shopping-cart/static/css/main.d24de5ee.css.map",
+    "main.bf8fa4d3.js.map": "/shopping-cart/static/js/main.bf8fa4d3.js.map"
   },
   "entrypoints": [
     "static/css/main.d24de5ee.css",
-    "static/js/main.cdcbca1f.js"
+    "static/js/main.bf8fa4d3.js"
   ]
 }
