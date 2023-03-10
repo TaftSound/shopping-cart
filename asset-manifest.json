@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TaftSound/shopping-cart/static/css/main.d24de5ee.css",
-    "main.js": "/TaftSound/shopping-cart/static/js/main.02a31b18.js",
+    "main.js": "/TaftSound/shopping-cart/static/js/main.cdcbca1f.js",
     "static/media/homepage.jpeg": "/TaftSound/shopping-cart/static/media/homepage.cbaae5bbae0fd854e41c.jpeg",
     "static/media/adobe-t-shirt.jpeg": "/TaftSound/shopping-cart/static/media/adobe-t-shirt.b72c7739a2a69134135d.jpeg",
     "static/media/grey-shorts.jpeg": "/TaftSound/shopping-cart/static/media/grey-shorts.20b28ce05a2b58aa6845.jpeg",
@@ -10,10 +10,10 @@
     "static/media/beige-beanie.jpeg": "/TaftSound/shopping-cart/static/media/beige-beanie.ec139b67f031f2a70442.jpeg",
     "index.html": "/TaftSound/shopping-cart/index.html",
     "main.d24de5ee.css.map": "/TaftSound/shopping-cart/static/css/main.d24de5ee.css.map",
-    "main.02a31b18.js.map": "/TaftSound/shopping-cart/static/js/main.02a31b18.js.map"
+    "main.cdcbca1f.js.map": "/TaftSound/shopping-cart/static/js/main.cdcbca1f.js.map"
   },
   "entrypoints": [
     "static/css/main.d24de5ee.css",
-    "static/js/main.02a31b18.js"
+    "static/js/main.cdcbca1f.js"
   ]
 }
