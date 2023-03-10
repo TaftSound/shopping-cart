@@ -1,13 +1,21 @@
 import React, { useState } from "react";
 import ShoppingCart from "./shopping-cart";
 import ItemCard from "./item-card";
+import blackShortsImg from "../images/black-shorts.jpeg"
+import greyShortsImg from "../images/grey-shorts.jpeg"
+import greyBeanieImg from "../images/grey-beanie.jpeg"
+import beigeBeanieImg from "../images/beige-beanie.jpeg"
+import blackShirtImg from "../images/black-t-shirt.jpeg"
+import adobeShirtImg from "../images/adobe-t-shirt.jpeg"
 
 
 let itemsObject = {
-  "Item One": {name: "Item One", count: 0, cost: 25, imgUrl: "www.fakeurl.com/fakeimage"},
-  "Item Two": {name: "Item Two", count: 0, cost: 15, imgUrl: "www.fakeurl.com/fakeimage"},
-  "Item Three": {name: "Item Three", count: 0, cost: 30, imgUrl: "www.fakeurl.com/fakeimage"},
-  "Item Four": {name: "Item Four", count: 0, cost: 5, imgUrl: "www.fakeurl.com/fakeimage"}
+  "Black T-Shirt": {name: "Black T-Shirt", count: 0, cost: 20, imgUrl: blackShirtImg},
+  "Adobe T-Shirt": {name: "Adobe T-Shirt", count: 0, cost: 20, imgUrl: adobeShirtImg},
+  "Black Gym Shorts": {name: "Black Gym Shorts", count: 0, cost: 25, imgUrl: blackShortsImg},
+  "Grey Gym Shorts": {name: "Grey Gym Shorts", count: 0, cost: 25, imgUrl: greyShortsImg},
+  "Grey Beanie": {name: "Grey Beanie", count: 0, cost: 15, imgUrl: greyBeanieImg},
+  "Beige Beanie": {name: "Beige Beanie", count: 0, cost: 15, imgUrl: beigeBeanieImg}
 }
 
 function ShopPage (props) {
