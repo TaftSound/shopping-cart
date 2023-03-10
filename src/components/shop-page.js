@@ -44,7 +44,7 @@ function ShopPage (props) {
   }
 
   return (
-    <div>
+    <div className="shop-container">
       <ShoppingCart items={itemData} />
       <div className="items-container">
         {Object.values(itemData).map((item) => {
